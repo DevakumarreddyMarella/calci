@@ -1,0 +1,132 @@
+body{
+    background: skyblue;
+    color: white;
+    font-family: sans-serif;
+}
+.main{
+    background-color: rgba(0,0,0,20%);
+    height: 450px;
+    width: 450px;
+    margin-left: 500px;
+    margin-top:150px;
+    border-radius: 10px;
+    border:solid 2px white;
+}
+.main h1{
+    margin-left: 150px;
+    font-family: "roboto";
+    font-weight: 600px;
+    color: rgb(170, 78, 17);
+    text-decoration: underline;
+}
+input{
+    margin-left: 120px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-size: 20px;
+    /* padding-bottom: 20px; */
+    /* margin-top: 300px; */
+}
+#result{
+    height: 40px;
+    width:  fit-content;
+    background-color: black;
+    margin-left: 170px;
+    position: absolute;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 8px;
+
+}
+#display{
+    height: 40px;
+    width:  fit-content;
+    background-color: black;
+    margin-left: 120px;
+    position: absolute;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+
+}
+#n1{
+    margin-top: 150px;
+    
+    margin-bottom: 30px;
+}
+#n2{
+    margin-top: 30px;
+}
+#add{
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 120px;
+    background-color: gray;
+    transition: background 0.5s;
+}
+#add:hover{
+    background: transparent;
+    border: 2px solid white;
+}
+
+#sub{
+    width: 50px;
+height: 40px;
+margin-left: 0px;
+border-radius: 10px;
+background-color: gray;
+transition: background 0.5s;
+
+}
+#sub:hover{
+    background: transparent;
+    border: 2px solid white;
+
+}
+#mul{
+    width: 50px;
+height: 40px;
+margin-left: 0px;
+border-radius: 10px;
+background-color: gray;
+transition: background 0.5s;
+
+}
+#mul:hover{
+    background: transparent;
+    border: 2px solid white;
+
+}
+#div{
+    width: 50px;
+height: 40px;
+margin-left: 0px;
+border-radius: 10px;
+background-color: gray;
+transition: background 0.5s;
+
+}
+#div:hover{
+    background: transparent;
+    border: 2px solid white;
+
+}
+#reload{
+    width: 50px;
+    height: 40px;
+    margin-left:200px;
+    margin-top: 30px;
+    background-color: darkcyan;
+}
+#reload:hover{
+    width: 60px;
+    height: 50px;
+}
